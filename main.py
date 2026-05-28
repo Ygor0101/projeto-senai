@@ -27,7 +27,9 @@ while True:
             print("Item cadastrado com sucesso!")
 
         case 2: 
-            print(product_list)
-            
+            for product in product_list:
+                print(f"Nome: {product ["nome"]}.")
+                print(f"Valor: {product["valor"]}.")
+                print(f"Peso: {product["peso"]}KG.")
         case 0:
             break
