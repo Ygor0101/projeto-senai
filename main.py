@@ -1,4 +1,26 @@
-product_list = []
+dev = True
+
+if dev == True:
+    item1 = {
+        "nome" : "Hipocloreto",
+        "valor" : "32.50",
+        "peso" : "5"
+    }
+
+    item2 = {
+        "nome" : "Isopropilico",
+        "valor" : "36.50",
+        "peso" : "1"
+    }
+
+    item3 = {
+        "nome" : "Formol",
+        "valor" : "46.80",
+        "peso" : "5"
+    }
+    product_list = [item1, item2, item3]
+else:
+    product_list = []
 
 while True: 
     print("----MENU DE COLETA DE DADOS----")
