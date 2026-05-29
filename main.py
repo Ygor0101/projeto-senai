@@ -27,9 +27,12 @@ while True:
             print("Item cadastrado com sucesso!")
 
         case 2: 
+            print("-"*9)
             for product in product_list:
+                print("================================")
                 print(f"Nome: {product ["nome"]}.")
-                print(f"Valor: {product["valor"]}.")
+                print(f"Valor: R${product["valor"]}.")
                 print(f"Peso: {product["peso"]}KG.")
+                print("================================")
         case 0:
             break
