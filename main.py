@@ -26,6 +26,7 @@ while True:
     print("----MENU DE COLETA DE DADOS----")
     print("1. Cadastrar")
     print("2. Listar")
+    print("3. Excluir")
     print("0. Sair")
     print("-------------------------------")
 
@@ -56,5 +57,12 @@ while True:
                 print(f"Valor: R${product["valor"]}.")
                 print(f"Peso: {product["peso"]}KG.")
                 print("================================")
+        
+        case 3: 
+            name = input("Digite o nome de um produto para remover: ")
+            for product in product_list:
+                if product["nome"] == name:
+                    product_list.remove(product)
+
         case 0:
             break
