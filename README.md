@@ -1,4 +1,3 @@
-Empresa: Mais Química
 Desenvolvedor: Ygor Davi Portela Oliveira
 
 ### Sistema de cadastro e consulta de Produtos.
