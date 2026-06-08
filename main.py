@@ -1,3 +1,6 @@
+def mostrarLinha():
+    print("-" * 20)
+
 dev = True
 
 if dev == True:
@@ -28,7 +31,7 @@ while True:
     print("2. Listar")
     print("3. Excluir")
     print("0. Sair")
-    print("-------------------------------")
+    mostrarLinha()
 
     option = input("Escolha uma opção: ")
 
@@ -52,11 +55,11 @@ while True:
         case 2: 
             print("-"*9)
             for product in product_list:
-                print("================================")
+                mostrarLinha()
                 print(f"Nome: {product ["nome"]}.")
                 print(f"Valor: R${product["valor"]}.")
                 print(f"Peso: {product["peso"]}KG.")
-                print("================================")
+                mostrarLinha()
         
         case 3: 
             name = input("Digite o nome de um produto para remover: ")
