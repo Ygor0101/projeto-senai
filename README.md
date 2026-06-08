@@ -5,7 +5,7 @@ Desenvolvedor: Ygor Davi Portela Oliveira
 
 # Visão Geral do Projeto
 
-O objetivo deste projeto é desenvolver um sistema em linha de comando (CLI) para gerenciar o cadastro leitura, atualização e exclusão (CRUD) de produto. O sistema deve permitir que o usuário mantenha um controle atualizado do seu catálogo de forma interativa e intuitiva.
+O objetivo deste projeto é desenvolver um sistema em linha de comando (CLI) para gerenciar o cadastro, leitura, atualização e exclusão (CRUD) de produto. O sistema deve permitir que o usuário mantenha um controle atualizado do seu catálogo de forma interativa e intuitiva.
 
 # Estrutura de dados (o que vamos guardar)
 
